@@ -18,7 +18,11 @@ Levels in PictoPull are made via a built in level editor. You draw pixel art and
 The game contains Three types of levels:
 
 <table width="100%" >
-<tr ><th style="text-align:center">Pull Levels</th><th style="text-align:center">2D Crash Levels</th><th style="text-align:center">3D Crash Levels</th></tr>
+<tr >
+<th style="text-align:center">Pull Levels</th>
+<th style="text-align:center">2D Crash Levels</th>
+<th style="text-align:center">3D Crash Levels</th>
+</tr>
 
 <tr>
 <td><img src="Images/PullLevel.png" alt="isolated" width="100%"/></td>
@@ -36,7 +40,7 @@ The game contains Three types of levels:
 <tr>
 <td style="text-align:center">Fully implemented. 100% functional with different level types and special blocks. Only minor inconsistent collision glitches that I have rarely witnessed but not been able to replicate</td>
 <td style="text-align:center; border-left:2px solid">Partially implemented. ~70% functional with a bunch of glitches. Some special blocks implemented. Core gameplay works.</td>
-<td style="text-align:center; border-left:2px solid">Partially implemented. ~30% functional with a bunch of glitches. No special blocks implemented. This is the last level type I was working on before dropping the project so it is glitchy<td>
+<td style="text-align:center; border-left:2px solid">Partially implemented. ~30% functional with a bunch of glitches. No special blocks implemented. This is the last level type I was working on before dropping the project so it is glitchy</td>
 </tr>
 
 </table>
