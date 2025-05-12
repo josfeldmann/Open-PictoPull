@@ -123,6 +123,10 @@ Music by [Tahir Rogers](https://x.com/ringlitre)
 
 SFX from [Kenney](https://kenney.nl/) and [Liu Jiajun](https://opengameart.org/content/95-sfx-pack-beats-warrior-nian)
 
+# Attribution
+
+If you make a game using this project, you do not need to attribute me, however you must attribute all the projects listed above in a similar manner to how I have attributed them.
+
 
 
 
