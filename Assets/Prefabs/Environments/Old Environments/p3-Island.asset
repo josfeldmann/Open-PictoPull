@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a881a651000bd2543b13172afe3831da, type: 3}
+  m_Name: p3-Island
+  m_EditorClassIdentifier: 
+  envKey: island
+  envNameString: Island
+  scene: 1-Junkyard
+  blockMaterial: {fileID: 2100000, guid: d424157ae19e90248b8cef49c78e4504, type: 2}
+  gridMaterial: {fileID: 2100000, guid: b4a552657822bfc43bdefd5a259a014d, type: 2}
+  coreMaterial: {fileID: 2100000, guid: da3dce8e36255d54cb87f75be603ac1b, type: 2}
+  maxLevelSize: {x: 50, y: 32}
+  coreBorderColor: {r: 0.9568628, g: 0.7058824, b: 0.10588236, a: 1}
+  coreCenterColor: {r: 0.227451, g: 0.47058827, b: 0.65882355, a: 1}

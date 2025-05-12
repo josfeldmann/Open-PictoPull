@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a881a651000bd2543b13172afe3831da, type: 3}
+  m_Name: p7-Mountain
+  m_EditorClassIdentifier: 
+  envKey: mountain
+  envNameString: Mountain
+  scene: 1-Junkyard
+  blockMaterial: {fileID: 2100000, guid: d424157ae19e90248b8cef49c78e4504, type: 2}
+  gridMaterial: {fileID: 2100000, guid: b4a552657822bfc43bdefd5a259a014d, type: 2}
+  coreMaterial: {fileID: 2100000, guid: f1b9c51791a231a47bb069251a069c53, type: 2}
+  maxLevelSize: {x: 40, y: 40}
+  coreBorderColor: {r: 0.3372549, g: 0.2509804, b: 0.3921569, a: 1}
+  coreCenterColor: {r: 0.8745099, g: 0.96470594, b: 0.9607844, a: 1}

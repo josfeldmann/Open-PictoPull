@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add9a1bef8eda3d4492f46e06f5b84a6, type: 3}
+  m_Name: 6 - Crash 6
+  m_EditorClassIdentifier: 
+  id: Crash 6
+  achievementName: Crash 6
+  achivementDescription: Complete Crash 6
+  achievementSprite: {fileID: 407257592, guid: 7746584dbd61f4148a76885569c140fa, type: 3}
+  associatedSteamAchievement: ACH_CRASH_6
+  useProgressBar: 1
+  isAvailableOnSwitch: 0
+  levelGroup: {fileID: 11400000, guid: a15162292295d0540a49186499d7b796, type: 2}

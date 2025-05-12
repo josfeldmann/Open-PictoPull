@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Menu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1da4a14f99d6ad84fa0a65543834154e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 377874857984
+    m_Localized: Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416181436416
+    m_Localized: Level Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466315952128
+    m_Localized: Custom Level Creator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 554304061440
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624990666752
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 684319096832
+    m_Localized: Customize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 721996529664
+    m_Localized: Workshop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767576031232
+    m_Localized: Achievements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861918511104
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 908747915264
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 985356877824
+    m_Localized: Demo Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1070400585728
+    m_Localized: Full Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1220225318912
+    m_Localized: Wishlist On Steam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1317487034368
+    m_Localized: Discord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1340492791808
+    m_Localized: Twitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1177770573824
+    m_Localized: '-Pull, Crash, and Stretch Puzzles
+
+      -10 Areas
+
+      -200+
+      Puzzles
+
+      - Steam Workshop support'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119520079872
+    m_Localized: '-Pull Puzzles
+
+      -3 Areas
+
+      -45 Puzzles
+
+      -Level
+      Editor'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1584882302976
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1589441511424
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1590288760832
+    m_Localized: Clear Achievements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1590909517824
+    m_Localized: Clear Save Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807494987776
+    m_Localized: Unlock All Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1887081906176
+    m_Localized: Apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1930144825344
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1997706674176
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2344579809280
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2467259006976
+    m_Localized: Rewind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2513635426304
+    m_Localized: Camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2579959955456
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2661337841664
+    m_Localized: Level Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2770293276672
+    m_Localized: '[Jump] Next Level'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820939497472
+    m_Localized: Replay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2860617613312
+    m_Localized: You Win!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3018315055104
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180579485663232
+    m_Localized: Warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180628026343424
+    m_Localized: Web build is untested you may have performance problems, glitches,
+      or crashes. Switch to download version if you have any problems
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

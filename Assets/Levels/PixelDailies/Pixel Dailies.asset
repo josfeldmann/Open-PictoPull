@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4364bd0e41e15834d806d1638f0f5da0, type: 3}
+  m_Name: Pixel Dailies
+  m_EditorClassIdentifier: 
+  packName: Pixel Dailies
+  packAuthor: Screen Smith
+  packDescription: A collection of daily pixel drawings from 11/19/2022 to 2/20/2023
+  sprite: {fileID: 21300000, guid: 755413fff9a54fb4eacaa8703c7f383c, type: 3}
+  assets:
+  - {fileID: 4900000, guid: 0b47bcb96b895ed47bc74010166fb3dc, type: 3}
+  - {fileID: 4900000, guid: 048ecba4565cffe4fb82984914b54947, type: 3}
+  - {fileID: 4900000, guid: e9a5b142ac5935d4fb94f6451971a04e, type: 3}
+  - {fileID: 4900000, guid: 9a5a9ec1e0bdda245b4d656419bd68cf, type: 3}
+  - {fileID: 4900000, guid: 77f07f186e1a4c24fbf9160f8f62f5a9, type: 3}
+  - {fileID: 4900000, guid: cd0f4e6d65f39b342b8e9f58f39b2e32, type: 3}
+  - {fileID: 4900000, guid: 4dce091c7e249d84e82ce5026f97367c, type: 3}
+  - {fileID: 4900000, guid: 91ab8181628819b43ad29b849d9d845d, type: 3}
+  - {fileID: 4900000, guid: 5ea0a5dd63d491740b7fbbc11eb51b3a, type: 3}

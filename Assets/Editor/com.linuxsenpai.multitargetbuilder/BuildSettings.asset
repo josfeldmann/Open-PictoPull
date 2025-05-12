@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a096f48734c4689d7828bb50843c9223, type: 3}
+  m_Name: BuildSettings
+  m_EditorClassIdentifier: 
+  rootOutputDirectory: C:/Users/josfe/Documents/GitHub/PictoCrash/Builds
+  targets:
+  - title: Pictopull
+    company: 
+    outputDirectory: Windows
+    name: Windows-Steam
+    enabled: 0
+    useDefaultScenes: 0
+    scenes:
+    - {fileID: 102900000, guid: 0ed50daa54066884997e4bc757600989, type: 3}
+    - {fileID: 102900000, guid: b1763dfd62d2b8a4fbec0c823eb2f156, type: 3}
+    - {fileID: 102900000, guid: af57a53fc0042ed4883c8229e6383829, type: 3}
+    - {fileID: 102900000, guid: 253cab4546e5ddc43a35d9ed0cee61b8, type: 3}
+    - {fileID: 102900000, guid: 3f2576c82d0bcec4283c468f098638a8, type: 3}
+    targetGroup: 1
+    target: 5
+    options: 0
+  - title: Pictopull
+    company: 
+    outputDirectory: Windows-Standalone
+    name: Windows-Standalone
+    enabled: 1
+    useDefaultScenes: 0
+    scenes:
+    - {fileID: 102900000, guid: 0ed50daa54066884997e4bc757600989, type: 3}
+    - {fileID: 102900000, guid: b1763dfd62d2b8a4fbec0c823eb2f156, type: 3}
+    - {fileID: 102900000, guid: af57a53fc0042ed4883c8229e6383829, type: 3}
+    - {fileID: 102900000, guid: 253cab4546e5ddc43a35d9ed0cee61b8, type: 3}
+    - {fileID: 102900000, guid: 3f2576c82d0bcec4283c468f098638a8, type: 3}
+    targetGroup: 1
+    target: 19
+    options: 0
+  - title: Pictopull
+    company: 
+    outputDirectory: Windows-Demo
+    name: Windows-Demo
+    enabled: 0
+    useDefaultScenes: 0
+    scenes:
+    - {fileID: 102900000, guid: 0ed50daa54066884997e4bc757600989, type: 3}
+    - {fileID: 102900000, guid: 12b9f9f7613b0f2439c0df0a3626fa25, type: 3}
+    - {fileID: 102900000, guid: ebdd7fc677b223440bb4d83936206ed1, type: 3}
+    - {fileID: 102900000, guid: 0dbdcd82daaa2d44a9084644541d7b38, type: 3}
+    - {fileID: 102900000, guid: 0d212572d7ed1434b95442a0fa61c59f, type: 3}
+    - {fileID: 102900000, guid: 21d90a752bd33144e9ae9c36ec7b40b4, type: 3}
+    - {fileID: 102900000, guid: d40b18bf9c891554f8648a6f99dd5d8d, type: 3}
+    - {fileID: 102900000, guid: 0cca985523d41f84c99ea46cb7cbc5f8, type: 3}
+    - {fileID: 102900000, guid: 3452c915e194bda4fa456cf543b1bac4, type: 3}
+    - {fileID: 102900000, guid: 385a92dabed646d4b8cab851cf5d2c23, type: 3}
+    - {fileID: 102900000, guid: 322f86e24a182ad4cb45e3c46aa9952c, type: 3}
+    - {fileID: 102900000, guid: 99eff220606e3a3449eaf5cc933979a0, type: 3}
+    targetGroup: 1
+    target: 19
+    options: 0
+  - title: Pictopull
+    company: 
+    outputDirectory: Mac
+    name: MacTest
+    enabled: 0
+    useDefaultScenes: 1
+    scenes: []
+    targetGroup: 1
+    target: 2
+    options: 0
+  - title: Pictopull
+    company: 
+    outputDirectory: Switch
+    name: Nintendo Switch
+    enabled: 0
+    useDefaultScenes: 0
+    scenes:
+    - {fileID: 102900000, guid: a230014b93ca210438bb3539d0fe135b, type: 3}
+    - {fileID: 102900000, guid: 0ed50daa54066884997e4bc757600989, type: 3}
+    - {fileID: 102900000, guid: 12b9f9f7613b0f2439c0df0a3626fa25, type: 3}
+    - {fileID: 102900000, guid: ebdd7fc677b223440bb4d83936206ed1, type: 3}
+    - {fileID: 102900000, guid: 0d212572d7ed1434b95442a0fa61c59f, type: 3}
+    - {fileID: 102900000, guid: 0dbdcd82daaa2d44a9084644541d7b38, type: 3}
+    - {fileID: 102900000, guid: 21d90a752bd33144e9ae9c36ec7b40b4, type: 3}
+    - {fileID: 102900000, guid: d40b18bf9c891554f8648a6f99dd5d8d, type: 3}
+    - {fileID: 102900000, guid: 0cca985523d41f84c99ea46cb7cbc5f8, type: 3}
+    - {fileID: 102900000, guid: 3452c915e194bda4fa456cf543b1bac4, type: 3}
+    - {fileID: 102900000, guid: 385a92dabed646d4b8cab851cf5d2c23, type: 3}
+    - {fileID: 102900000, guid: 322f86e24a182ad4cb45e3c46aa9952c, type: 3}
+    targetGroup: 27
+    target: 38
+    options: 5
+  - title: Pictopull
+    company: 
+    outputDirectory: WebGL
+    name: WebGL
+    enabled: 0
+    useDefaultScenes: 0
+    scenes:
+    - {fileID: 102900000, guid: 0ed50daa54066884997e4bc757600989, type: 3}
+    - {fileID: 102900000, guid: 12b9f9f7613b0f2439c0df0a3626fa25, type: 3}
+    - {fileID: 102900000, guid: ebdd7fc677b223440bb4d83936206ed1, type: 3}
+    - {fileID: 102900000, guid: 0dbdcd82daaa2d44a9084644541d7b38, type: 3}
+    - {fileID: 102900000, guid: 0d212572d7ed1434b95442a0fa61c59f, type: 3}
+    - {fileID: 102900000, guid: 21d90a752bd33144e9ae9c36ec7b40b4, type: 3}
+    - {fileID: 102900000, guid: d40b18bf9c891554f8648a6f99dd5d8d, type: 3}
+    - {fileID: 102900000, guid: 0cca985523d41f84c99ea46cb7cbc5f8, type: 3}
+    - {fileID: 102900000, guid: 3452c915e194bda4fa456cf543b1bac4, type: 3}
+    - {fileID: 102900000, guid: 385a92dabed646d4b8cab851cf5d2c23, type: 3}
+    - {fileID: 102900000, guid: 322f86e24a182ad4cb45e3c46aa9952c, type: 3}
+    - {fileID: 102900000, guid: 99eff220606e3a3449eaf5cc933979a0, type: 3}
+    targetGroup: 13
+    target: 20
+    options: 0
+  - title: Pictopull
+    company: 
+    outputDirectory: Linux-Demo
+    name: Linux-Demo
+    enabled: 0
+    useDefaultScenes: 0
+    scenes:
+    - {fileID: 102900000, guid: 0ed50daa54066884997e4bc757600989, type: 3}
+    - {fileID: 102900000, guid: 12b9f9f7613b0f2439c0df0a3626fa25, type: 3}
+    - {fileID: 102900000, guid: ebdd7fc677b223440bb4d83936206ed1, type: 3}
+    - {fileID: 102900000, guid: 0dbdcd82daaa2d44a9084644541d7b38, type: 3}
+    - {fileID: 102900000, guid: 0d212572d7ed1434b95442a0fa61c59f, type: 3}
+    - {fileID: 102900000, guid: 21d90a752bd33144e9ae9c36ec7b40b4, type: 3}
+    - {fileID: 102900000, guid: d40b18bf9c891554f8648a6f99dd5d8d, type: 3}
+    - {fileID: 102900000, guid: 0cca985523d41f84c99ea46cb7cbc5f8, type: 3}
+    - {fileID: 102900000, guid: 3452c915e194bda4fa456cf543b1bac4, type: 3}
+    - {fileID: 102900000, guid: 385a92dabed646d4b8cab851cf5d2c23, type: 3}
+    - {fileID: 102900000, guid: 322f86e24a182ad4cb45e3c46aa9952c, type: 3}
+    - {fileID: 102900000, guid: 99eff220606e3a3449eaf5cc933979a0, type: 3}
+    targetGroup: 1
+    target: 24
+    options: 513
+  - title: Pictopull
+    company: 
+    outputDirectory: TRAILER
+    name: TRAILERONLY
+    enabled: 0
+    useDefaultScenes: 0
+    scenes:
+    - {fileID: 102900000, guid: 42a6fdb42546bbb4486ca7320b1c3dc5, type: 3}
+    targetGroup: 1
+    target: 5
+    options: 0
+  verbose: 1

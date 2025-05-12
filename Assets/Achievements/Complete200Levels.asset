@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357196e62bbfcf24a80d39754c0b2ed0, type: 3}
+  m_Name: Complete200Levels
+  m_EditorClassIdentifier: 
+  id: complete200level
+  achievementName: Gold Trophy
+  achivementDescription: Complete 200 puzzles
+  achievementSprite: {fileID: 467132419, guid: 7e9787bf924e23a4fa8f37cce14721cf, type: 3}
+  associatedSteamAchievement: ACH_COMPLETE_200_LEVELS
+  useProgressBar: 1
+  isAvailableOnSwitch: 1
+  ints:
+  - key: LEVELSCOMPLETED
+    intComparison: 1
+    amount: 200

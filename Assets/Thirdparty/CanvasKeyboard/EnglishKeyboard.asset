@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00eaadc750a54ca4399ecd2dc0b5b771, type: 3}
+  m_Name: EnglishKeyboard
+  m_EditorClassIdentifier: 
+  keyDataRow:
+  - keyData:
+    - normalChar: 49
+      shiftChar: 33
+      keyType: 1
+    - normalChar: 50
+      shiftChar: 64
+      keyType: 1
+    - normalChar: 51
+      shiftChar: 35
+      keyType: 1
+    - normalChar: 52
+      shiftChar: 36
+      keyType: 1
+    - normalChar: 53
+      shiftChar: 37
+      keyType: 1
+    - normalChar: 54
+      shiftChar: 94
+      keyType: 1
+    - normalChar: 55
+      shiftChar: 38
+      keyType: 1
+    - normalChar: 56
+      shiftChar: 42
+      keyType: 1
+    - normalChar: 57
+      shiftChar: 40
+      keyType: 1
+    - normalChar: 48
+      shiftChar: 41
+      keyType: 1
+    - normalChar: 45
+      shiftChar: 95
+      keyType: 1
+    - normalChar: 61
+      shiftChar: 43
+      keyType: 1
+    - normalChar: 61
+      shiftChar: 43
+      keyType: 6
+  - keyData:
+    - normalChar: 113
+      shiftChar: 81
+      keyType: 0
+    - normalChar: 119
+      shiftChar: 87
+      keyType: 0
+    - normalChar: 101
+      shiftChar: 69
+      keyType: 0
+    - normalChar: 114
+      shiftChar: 82
+      keyType: 0
+    - normalChar: 116
+      shiftChar: 84
+      keyType: 0
+    - normalChar: 121
+      shiftChar: 89
+      keyType: 0
+    - normalChar: 117
+      shiftChar: 85
+      keyType: 0
+    - normalChar: 105
+      shiftChar: 73
+      keyType: 0
+    - normalChar: 111
+      shiftChar: 79
+      keyType: 0
+    - normalChar: 112
+      shiftChar: 80
+      keyType: 0
+    - normalChar: 91
+      shiftChar: 123
+      keyType: 1
+    - normalChar: 93
+      shiftChar: 125
+      keyType: 1
+    - normalChar: 92
+      shiftChar: 124
+      keyType: 1
+  - keyData:
+    - normalChar: 97
+      shiftChar: 65
+      keyType: 0
+    - normalChar: 115
+      shiftChar: 83
+      keyType: 0
+    - normalChar: 100
+      shiftChar: 68
+      keyType: 0
+    - normalChar: 102
+      shiftChar: 70
+      keyType: 0
+    - normalChar: 103
+      shiftChar: 71
+      keyType: 0
+    - normalChar: 104
+      shiftChar: 72
+      keyType: 0
+    - normalChar: 106
+      shiftChar: 74
+      keyType: 0
+    - normalChar: 107
+      shiftChar: 75
+      keyType: 0
+    - normalChar: 108
+      shiftChar: 76
+      keyType: 0
+    - normalChar: 59
+      shiftChar: 58
+      keyType: 1
+    - normalChar: 39
+      shiftChar: 34
+      keyType: 1
+  - keyData:
+    - normalChar: 47
+      shiftChar: 63
+      keyType: 4
+    - normalChar: 122
+      shiftChar: 90
+      keyType: 0
+    - normalChar: 120
+      shiftChar: 88
+      keyType: 0
+    - normalChar: 99
+      shiftChar: 67
+      keyType: 0
+    - normalChar: 118
+      shiftChar: 86
+      keyType: 0
+    - normalChar: 98
+      shiftChar: 66
+      keyType: 0
+    - normalChar: 110
+      shiftChar: 78
+      keyType: 0
+    - normalChar: 109
+      shiftChar: 77
+      keyType: 0
+    - normalChar: 44
+      shiftChar: 60
+      keyType: 1
+    - normalChar: 46
+      shiftChar: 62
+      keyType: 1
+    - normalChar: 47
+      shiftChar: 63
+      keyType: 1
+    - normalChar: 0
+      shiftChar: 0
+      keyType: 7
+    - normalChar: 0
+      shiftChar: 0
+      keyType: 8
+  - keyData:
+    - normalChar: 122
+      shiftChar: 90
+      keyType: 3

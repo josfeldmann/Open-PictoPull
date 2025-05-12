@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: AchievementsAndLocation Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: AchievementsAndLocation
+  m_TableCollectionNameGuidString: 31a84647d36844e4687ed9ae74d120a6
+  m_Entries:
+  - m_Id: 212367622144
+    m_Key: Village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247293591552
+    m_Key: Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280642502656
+    m_Key: Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310405283840
+    m_Key: Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340839153664
+    m_Key: Sewer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367800139776
+    m_Key: City
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394266198016
+    m_Key: ConstructionSite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 478361993216
+    m_Key: Mountain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520279867392
+    m_Key: Lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578517778432
+    m_Key: Void
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170245992448
+    m_Key: Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1211194982400
+    m_Key: Complete1Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1259446255616
+    m_Key: Complete10Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1370347847680
+    m_Key: Complete50Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1472596590592
+    m_Key: Complete100Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1548995837952
+    m_Key: Complete200Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1667518480384
+    m_Key: Publisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1689240780800
+    m_Key: PuzzleMaster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4195022848000
+    m_Key: Murals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7442206867456
+    m_Key: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7445256126464
+    m_Key: Challenge1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7589980585984
+    m_Key: AdvancedTutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7653050335232
+    m_Key: Extra Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7699162513408
+    m_Key: Advanced Murals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7747078242304
+    m_Key: Challenge 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7919401222144
+    m_Key: Challenge3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7922328846336
+    m_Key: Extra Murals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7923838795776
+    m_Key: Final Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974246889766912
+    m_Key: VillageBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974248185806848
+    m_Key: ForestBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974248844312576
+    m_Key: CaveBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974249431515136
+    m_Key: IslandBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974250085826560
+    m_Key: SewerBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974250731749376
+    m_Key: CityBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974251335729152
+    m_Key: MountainBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974251914543104
+    m_Key: ConstructionBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974252539494400
+    m_Key: LabBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974255735554048
+    m_Key: VoidBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100479109143511040
+    m_Key: Crash1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100479111249051648
+    m_Key: Crash2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100479113669165056
+    m_Key: Crash3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1668278195923714078
+  references:
+    version: 2
+    RefIds:
+    - rid: 1668278195923714078
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1673201960838

@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Menu Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Menu
+  m_TableCollectionNameGuidString: 1da4a14f99d6ad84fa0a65543834154e
+  m_Entries:
+  - m_Id: 377874857984
+    m_Key: StoryButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416181436416
+    m_Key: LevelSelectButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466315952128
+    m_Key: CustomLevelCreatorButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 554304061440
+    m_Key: OptionsButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 624990666752
+    m_Key: ExitButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 684319096832
+    m_Key: CustomizeButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 721996529664
+    m_Key: WorkshopButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 767576031232
+    m_Key: AchievementsButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861918511104
+    m_Key: CreditsButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 908747915264
+    m_Key: LanguageButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 985356877824
+    m_Key: DemoVersionTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1070400585728
+    m_Key: FullVersionTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1119520079872
+    m_Key: DemoVersionDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1177770573824
+    m_Key: FullVersionDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1220225318912
+    m_Key: WishlistOnSteam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1317487034368
+    m_Key: DiscordButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1340492791808
+    m_Key: TwitterButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1584882302976
+    m_Key: MusicTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1589441511424
+    m_Key: SoundTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1590288760832
+    m_Key: ClearAchievementButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1590909517824
+    m_Key: ClearSaveDataButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807494987776
+    m_Key: UnlockAllLevelsButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1887081906176
+    m_Key: ApplyButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1930144825344
+    m_Key: ResolutionLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1997706674176
+    m_Key: FullscreenLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2344579809280
+    m_Key: MainMenuButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2467259006976
+    m_Key: RewindLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2513635426304
+    m_Key: CameraLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2579959955456
+    m_Key: ResumeLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2661337841664
+    m_Key: LevelSelectLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2770293276672
+    m_Key: NextLevelLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820939497472
+    m_Key: ReplayLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2860617613312
+    m_Key: YouWinLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3018315055104
+    m_Key: PausedLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180579485663232
+    m_Key: WarningLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180628026343424
+    m_Key: WarningDescription
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1668278195923714072
+  references:
+    version: 2
+    RefIds:
+    - rid: 1668278195923714072
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1673200997947

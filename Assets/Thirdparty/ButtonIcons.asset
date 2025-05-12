@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc944469a3fe6240a64872b71a1095a, type: 3}
+  m_Name: ButtonIcons
+  m_EditorClassIdentifier: 
+  buttons:
+  - name: Playstation
+    stringSprites:
+    - name: Cross
+      spriteLookupName: 
+      spr: {fileID: -1047355993, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0000000006000000
+    - name: Circle
+      spriteLookupName: 
+      spr: {fileID: -898409184, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0300000007000000
+    - name: R1
+      spriteLookupName: 
+      spr: {fileID: 693476608, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 01000000
+    - name: L1
+      spriteLookupName: 
+      spr: {fileID: 933908806, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 02000000
+    - name: Options
+      spriteLookupName: 
+      spr: {fileID: 1176089122, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 04000000
+    - name: L2 | R2
+      spriteLookupName: 
+      spr: {fileID: -1839267814, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 05000000
+    - name: Left Thumbstick
+      spriteLookupName: 
+      spr: {fileID: 553891872, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 08000000
+    - name: Left Up Down
+      spriteLookupName: 
+      spr: {fileID: 1773172380, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 09000000
+    - name: Square
+      spriteLookupName: 
+      spr: {fileID: 1065028015, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0a0000000b000000
+  - name: KeyboardMouse
+    stringSprites:
+    - name: LMB
+      spriteLookupName: 
+      spr: {fileID: -118659152, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 06000000
+    - name: RMB
+      spriteLookupName: 
+      spr: {fileID: 2111622918, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 07000000
+    - name: Q
+      spriteLookupName: 
+      spr: {fileID: -1286507941, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 02000000
+    - name: E
+      spriteLookupName: 
+      spr: {fileID: 1458415908, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 01000000
+    - name: Esc
+      spriteLookupName: 
+      spr: {fileID: -1121071779, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 04000000
+    - name: Shift
+      spriteLookupName: 
+      spr: {fileID: 555641847, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 05000000
+    - name: F
+      spriteLookupName: 
+      spr: {fileID: -67378343, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 03000000
+    - name: Space
+      spriteLookupName: 
+      spr: {fileID: -700497298, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 00000000
+    - name: WASD
+      spriteLookupName: 
+      spr: {fileID: -2090586411, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 08000000
+    - name: WS
+      spriteLookupName: 
+      spr: {fileID: -1257198176, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 09000000
+    - name: R
+      spriteLookupName: 
+      spr: {fileID: 1746631646, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 
+  - name: Xbox
+    stringSprites:
+    - name: A
+      spriteLookupName: 
+      spr: {fileID: -1141335810, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0000000006000000
+    - name: B
+      spriteLookupName: 
+      spr: {fileID: -1757590277, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0700000003000000
+    - name: RT | LT
+      spriteLookupName: 
+      spr: {fileID: 1250959186, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 05000000
+    - name: RB
+      spriteLookupName: 
+      spr: {fileID: -966412753, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 01000000
+    - name: LB
+      spriteLookupName: 
+      spr: {fileID: 223026817, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 02000000
+    - name: Start
+      spriteLookupName: 
+      spr: {fileID: 1414694803, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 04000000
+    - name: Left Thumbstick
+      spriteLookupName: 
+      spr: {fileID: 553891872, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 08000000
+    - name: Left Up Down
+      spriteLookupName: 
+      spr: {fileID: 1773172380, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 09000000
+    - name: X
+      spriteLookupName: 
+      spr: {fileID: -2029964344, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0a000000
+  - name: Switch Pro Controller
+    stringSprites:
+    - name: ZR | ZL
+      spriteLookupName: 
+      spr: {fileID: 1254748739, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 05000000
+    - name: L
+      spriteLookupName: 
+      spr: {fileID: 223026817, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 02000000
+    - name: R
+      spriteLookupName: 
+      spr: {fileID: -966412753, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 01000000
+    - name: A
+      spriteLookupName: 
+      spr: {fileID: -1141335810, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0000000006000000
+    - name: B
+      spriteLookupName: 
+      spr: {fileID: -1757590277, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0300000007000000
+    - name: Y
+      spriteLookupName: 
+      spr: {fileID: -1584226564, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0b000000
+    - name: Left Thumbstick
+      spriteLookupName: 
+      spr: {fileID: 553891872, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 08000000
+    - name: Left Up Down
+      spriteLookupName: 
+      spr: {fileID: 1773172380, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 09000000
+    - name: Start
+      spriteLookupName: 
+      spr: {fileID: 1414694803, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 04000000
+  - name: Gamepad
+    stringSprites:
+    - name: RT | LT
+      spriteLookupName: ZL | ZR
+      spr: {fileID: 1291144691, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 05000000
+    - name: L
+      spriteLookupName: 
+      spr: {fileID: -1772525365, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 02000000
+    - name: R
+      spriteLookupName: 
+      spr: {fileID: 800438581, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 01000000
+    - name: A
+      spriteLookupName: SwitchA
+      spr: {fileID: 365572156, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0600000003000000
+    - name: B
+      spriteLookupName: SwitchB
+      spr: {fileID: 1062330203, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0700000000000000
+    - name: X
+      spriteLookupName: SwitchX
+      spr: {fileID: -1433534310, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 0b000000
+    - name: Left Thumbstick
+      spriteLookupName: 
+      spr: {fileID: 553891872, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 08000000
+    - name: Left Up Down
+      spriteLookupName: 
+      spr: {fileID: 1773172380, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 09000000
+    - name: Start
+      spriteLookupName: DPad
+      spr: {fileID: -1588659954, guid: 8c6f4d88c82ae294785dd0ed350696e0, type: 3}
+      action: 04000000

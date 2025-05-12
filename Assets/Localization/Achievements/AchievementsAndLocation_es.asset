@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: AchievementsAndLocation_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 31a84647d36844e4687ed9ae74d120a6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 212367622144
+    m_Localized: Pueblo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247293591552
+    m_Localized: Bosque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280642502656
+    m_Localized: Isla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310405283840
+    m_Localized: Cueva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340839153664
+    m_Localized: Alcantarilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367800139776
+    m_Localized: Ciudad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394266198016
+    m_Localized: "Sitio de Construcci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 478361993216
+    m_Localized: "Monta\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520279867392
+    m_Localized: Lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578517778432
+    m_Localized: "Vac\xEDo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170245992448
+    m_Localized: Artista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1211194982400
+    m_Localized: Empezando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1259446255616
+    m_Localized: Calentando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1370347847680
+    m_Localized: Trofeo de Bronce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1472596590592
+    m_Localized: Trofeo de Plata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1548995837952
+    m_Localized: Asistente de Rompecabezas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1667518480384
+    m_Localized: Editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1689240780800
+    m_Localized: Maestro del Rompecabezas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4195022848000
+    m_Localized: Murales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7442206867456
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7445256126464
+    m_Localized: "Desaf\xEDos b\xE1sicos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7589980585984
+    m_Localized: "Tutor\xEDa avanzada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7653050335232
+    m_Localized: Tutorial adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7699162513408
+    m_Localized: Murales avanzados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7747078242304
+    m_Localized: "Desaf\xEDos avanzados"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7919401222144
+    m_Localized: "Desaf\xEDos adicionales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7922328846336
+    m_Localized: Murales adicionales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7923838795776
+    m_Localized: "Desaf\xEDos finales"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

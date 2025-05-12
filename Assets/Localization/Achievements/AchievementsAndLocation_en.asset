@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: AchievementsAndLocation_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 31a84647d36844e4687ed9ae74d120a6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 212367622144
+    m_Localized: Village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247293591552
+    m_Localized: Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280642502656
+    m_Localized: Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 310405283840
+    m_Localized: Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340839153664
+    m_Localized: Sewer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367800139776
+    m_Localized: City
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394266198016
+    m_Localized: Construction Site
+    m_Metadata:
+      m_Items: []
+  - m_Id: 478361993216
+    m_Localized: Mountain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520279867392
+    m_Localized: Lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 578517778432
+    m_Localized: Void
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1170245992448
+    m_Localized: Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1211194982400
+    m_Localized: Getting Started
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1259446255616
+    m_Localized: Warming Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1370347847680
+    m_Localized: Bronze Trophy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1472596590592
+    m_Localized: Silver Trophy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1548995837952
+    m_Localized: Puzzle Wizard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1667518480384
+    m_Localized: Publisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1689240780800
+    m_Localized: Puzzle Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4195022848000
+    m_Localized: Murals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7442206867456
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7445256126464
+    m_Localized: Basic Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7589980585984
+    m_Localized: Advanced Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7653050335232
+    m_Localized: Extra Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7699162513408
+    m_Localized: Advanced Murals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7747078242304
+    m_Localized: Advanced Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7919401222144
+    m_Localized: Extra Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7922328846336
+    m_Localized: Extra Murals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7923838795776
+    m_Localized: Final Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974246889766912
+    m_Localized: Village Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974248185806848
+    m_Localized: Forest Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974248844312576
+    m_Localized: Cave Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974249431515136
+    m_Localized: Island Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974250085826560
+    m_Localized: Sewer Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974250731749376
+    m_Localized: City Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974251335729152
+    m_Localized: Mountain Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974251914543104
+    m_Localized: Construction Site Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974252539494400
+    m_Localized: Lab Beet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22974255735554048
+    m_Localized: VoidBeet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100479109143511040
+    m_Localized: Crash Village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100479111249051648
+    m_Localized: Crash Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100479113669165056
+    m_Localized: Crash Island
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
