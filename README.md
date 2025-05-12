@@ -113,6 +113,12 @@ Certain levels from PictoPull were based on pixel art assets packs I had bought.
 - [Multitarget Build System](https://github.com/voldien/UMultiTargetBuilder) - Open source build system
 - [Kenney Input Promps Pixel 16x](https://kenney.nl/assets/input-prompts-pixel-16) - Pixel art icons used for controller icons
 
+# Sounds
+
+Music by Tahir Rogers
+
+SFX from [Kenney](https://kenney.nl/) and [Liu Jiajun](https://opengameart.org/content/95-sfx-pack-beats-warrior-nian)
+
 
 
 
