@@ -119,7 +119,7 @@ Certain levels from PictoPull were based on pixel art assets packs I had bought.
 
 # Sounds
 
-Music by Tahir Rogers
+Music by [Tahir Rogers](https://x.com/ringlitre)
 
 SFX from [Kenney](https://kenney.nl/) and [Liu Jiajun](https://opengameart.org/content/95-sfx-pack-beats-warrior-nian)
 
