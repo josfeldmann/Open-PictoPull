@@ -47,23 +47,18 @@ The game contains Three types of levels:
 
 # How To Play/Build
 
-1. Open the Project in Unity 2022.2.7f1
+1. Open the Project in Unity 6.3+
 
 2. Open the scene titled "0-Open-PictoPull". This is the master scene which contains all of the game logic and menus. The other scenes in the project are basically just the 3D backgrounds that are loaded in based on the selected level.
 
 3. Hit play button to ensure everything is working
 
-4. The project is set up to use the [Multitarget Build System](https://github.com/voldien/UMultiTargetBuilder). I liked this system as it allowed me to easily manage and build multiple different build configurations at once, something not possible in older Unity versions by default. One side effect of this is that the default Unity build system WILL NOT WORK, you HAVE TO build via the Multitarget build system. This can now probably be replaced with Unity's improved build system if the project is upgraded to Unity 6. You can also remove the multitarget build system and then use the default build system with no issues.
+4. To Build:
 
-5. To Build:
+		- Go to "File->Build Profiles"
+		- Select or Create a new build profile
+		- Press Build or Build and Run
 
-		- Go to "Edit->Project Settings->Multitarget Build Settings"
-		- Choose an output directory
-		- Create or select a build target
-		- Press the "Build Targets" button
-
-
-<img src="Images/Build Settings.png" alt="isolated" width="75%"/>
 		
 # Differences from released version
 In order to open source the the project I have had to remove some artwork, code, and levels that I have the legal right to use in a game, but do not have the right to distribute as an open source project. I also removed some assets that could be legally distributed but require attribution, as I want to remove that and make the project require as little attribution as possible. Here is an example of the changed art style:
@@ -114,7 +109,7 @@ Certain levels from PictoPull were based on pixel art assets packs I had bought.
 - [HSV Color Picker](https://github.com/judah4/HSV-Color-Picker-Unity) - Open source color picker prefab used for the level editor
 - [Simple File Browser](https://github.com/yasirkula/UnitySimpleFileBrowser) - Open source file browser system used for the level editor
 - [Steamworks.NET](https://github.com/rlabrecque/Steamworks.NET) - C# Steamworks implementation used for steam achievements
-- [Multitarget Build System](https://github.com/voldien/UMultiTargetBuilder) - Open source build system
+- [Multitarget Build System](https://github.com/voldien/UMultiTargetBuilder) - Open source build system -  (REMOVED AFTER UNITY 6 UPGRADE IN FAVOR OF THE NEW BUILD PROFILE SYSTEM, BUT KEEPING A LINK HERE FOR POSTERITY)
 - [Kenney Input Promps Pixel 16x](https://kenney.nl/assets/input-prompts-pixel-16) - Pixel art icons used for controller icons
 
 # Sounds
