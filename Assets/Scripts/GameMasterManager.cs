@@ -328,8 +328,8 @@ public class GameMasterManager : MonoBehaviour {
         }
 
         cutsceneManager.HideCutsceneManager();
-
-        CharacterObject c = characterSelector.GetCharacterFromKey(gameSaveFile.avatarID);
+        CharacterObject c = null;
+        //c = characterSelector.GetCharacterFromKey(gameSaveFile.avatarID);
         if (c == null) c = defaultCharObject;
 
         SelectCharacter(c, false);

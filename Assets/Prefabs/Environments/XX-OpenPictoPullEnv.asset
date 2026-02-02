@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a881a651000bd2543b13172afe3831da, type: 3}
-  m_Name: XX-Virtual Room
+  m_Name: XX-OpenPictoPullEnv
   m_EditorClassIdentifier: 
-  envKey: Virtual Room
-  envNameString: Virtual Room
+  envKey: Open PictoPull Env
+  envNameString: Open PictoPull Env
   scene: 1-Junkyard
   blockMaterial: {fileID: 2100000, guid: d424157ae19e90248b8cef49c78e4504, type: 2}
   gridMaterial: {fileID: 2100000, guid: b4a552657822bfc43bdefd5a259a014d, type: 2}

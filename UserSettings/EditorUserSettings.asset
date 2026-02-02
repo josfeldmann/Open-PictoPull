@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 0653500252530a0d5a590e7042700b4446151a7e287075697e7f4f63b4e53069
-      flags: 0
-    RecentlyUsedSceneGuid-1:
       value: 5355560206515109090f0d2342270b44174e4872787e7264787d4c37b5e26760
       flags: 0
-    RecentlyUsedSceneGuid-2:
+    RecentlyUsedSceneGuid-1:
       value: 5b09025001545e580c0f0874407a0a44174e4b2b79297436797a4a32b1b8603a
       flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-2:
       value: 070402515657510a5f0a592411755b4417151b7f7f7f716728701f60e4e1623a
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-3:
       value: 5a0256035607580c0859547114710c44134e4e2f757d25337f7a496ae4e33769
       flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5203565f030c0f0c5b5f5f2040250d44454e1b7a282e76317e7f4f65e4e1666d
+      flags: 0
     RecentlyUsedSceneGuid-5:
-      value: 0257015104005a5d0e5e5c7642265b444e4f4b29747a7469287f4e6bb1b86661
+      value: 535450535551085a585a5c74467b07444f4e4f2f782a2567787e4b63b2b96c61
       flags: 0
     RecentlyUsedSceneGuid-6:
-      value: 5104070504575d0e5958097714275c4445164b7f287123347d2a1836b4b13660
+      value: 0257015104005a5d0e5e5c7642265b444e4f4b29747a7469287f4e6bb1b86661
       flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 5203565f030c0f0c5b5f5f2040250d44454e1b7a282e76317e7f4f65e4e1666d
+      value: 5104070504575d0e5958097714275c4445164b7f287123347d2a1836b4b13660
       flags: 0
     RecentlyUsedSceneGuid-8:
       value: 0100035056510f5f5b5c0870127b5e4410151d297c2b7e627e2c1f61e4b1616e
       flags: 0
     RecentlyUsedSceneGuid-9:
-      value: 535450535551085a585a5c74467b07444f4e4f2f782a2567787e4b63b2b96c61
+      value: 5057065352030a035f0a5c2013265c44444f4b29787e7e367d704565b1b83560
       flags: 0
     UnityEditor.ShaderGraph.Blackboard:
       value: 18135939215a0a5004000b0e15254b524c1119263f2d6a722016393ce1eb3d36e5d339f9a5602b2e2c07a37e0901373ae01e0008f707250d171df81a53a541465f95548717f73713d91006c1c309d0effad0d2f9ddffa5828991f5beb6fdd1cbfceba0b9f0b3bed8e8f5ace7f98c978883d3f59e98969989eacfcc
@@ -61,4 +61,6 @@ EditorUserSettings:
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 1
+  m_VCScanLocalPackagesOnConnect: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1

@@ -140,7 +140,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-1 Is this...
+    storyOverideName: 6-1 Is this...
   - saveFile:
       levelType: 0
       levelName: Cool S
@@ -257,7 +257,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-2 Cool S
+    storyOverideName: 6-2 Cool S
   - saveFile:
       levelType: 0
       levelName: Globe
@@ -371,7 +371,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-3 Globe
+    storyOverideName: 6-3 Globe
   - saveFile:
       levelType: 0
       levelName: Pepper
@@ -413,7 +413,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-4 Pepper
+    storyOverideName: 6-4 Pepper
   - saveFile:
       levelType: 0
       levelName: Eyes
@@ -527,7 +527,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-5 Eyes
+    storyOverideName: 6-5 Eyes
   - saveFile:
       levelType: 0
       levelName: Dino Chicken
@@ -641,7 +641,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-6 Dino Chicken
+    storyOverideName: 6-6 Dino Chicken
   - saveFile:
       levelType: 0
       levelName: Jester Eye
@@ -755,7 +755,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-7 Jester Eye
+    storyOverideName: 6-7 Jester Eye
   - saveFile:
       levelType: 0
       levelName: Panic Emoji
@@ -800,7 +800,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-8 Panic Emoji
+    storyOverideName: 6-8 Panic Emoji
   - saveFile:
       levelType: 0
       levelName: Mosquito
@@ -920,7 +920,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-9 Mosquito
+    storyOverideName: 6-9 Mosquito
   - saveFile:
       levelType: 0
       levelName: ShockShrew
@@ -980,7 +980,7 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-10 ShockShrew
+    storyOverideName: 6-10 ShockShrew
   - saveFile:
       levelType: 0
       levelName: Forest Tree
@@ -1124,9 +1124,9 @@ MonoBehaviour:
         negativeIndexes: 
       is3DLevel: 0
     sprite: {fileID: 0}
-    storyOverideName: 16-11 Forest Tree
+    storyOverideName: 6-11 Forest Tree
   envGroup: {fileID: 11400000, guid: c347c68da50e3114cb8dbcd184991be8, type: 2}
-  levelAchievement: {fileID: 11400000, guid: 7279b321ffa075742aeddc2741f7c2c2, type: 2}
+  levelAchievement: {fileID: 11400000, guid: 3c2daed2ddd328645bf8fb77eafde1ff, type: 2}
   StoryChapter: 5
   mustBeUnlockedToAppear: 
   unLockConditions: []

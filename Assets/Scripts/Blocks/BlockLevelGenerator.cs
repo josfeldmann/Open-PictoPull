@@ -1362,7 +1362,7 @@ public class BlockLevelGenerator : MonoBehaviour {
 
         resetButton.transform.localPosition = new Vector3(resetButton.transform.localPosition.x, resetButton.transform.localPosition.y, -pullLevelDepth - 2.5f);
        // Debug.LogError(player.transform.position);
-        player.body.velocity = new Vector3(0, 0, 0);
+        player.body.linearVelocity = new Vector3(0, 0, 0);
         player.position = new Vector3Int((int)playerStartPostion.transform.position.x, (int)playerStartPostion.transform.position.y, (int)playerStartPostion.transform.position.z);
         player.body.position = player.transform.position;
         player.transform.rotation = Quaternion.Euler(0,180,0);

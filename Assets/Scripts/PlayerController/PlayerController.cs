@@ -320,7 +320,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Win() {
-        body.velocity = Vector3.zero;
+        body.linearVelocity = Vector3.zero;
         body.constraints = RigidbodyConstraints.FreezeAll;
         machine.ChangeState(new WinState());
         winSound.Play();
@@ -1723,7 +1723,7 @@ public class PushOutPostFall : State<PlayerController> {
 
     public override void Update(StateMachine<PlayerController> obj) {
         if (pBlock.moving && !obj.target.DirectGrounded()) {
-            obj.target.body.velocity = new Vector3(0, -40, 0);
+            obj.target.body.linearVelocity = new Vector3(0, -40, 0);
         } else {
             obj.ChangeState(new PlayerIdleState());
         }
@@ -1929,7 +1929,7 @@ public class PlayerIdleState : State<PlayerController> {
         }
 
         bool cubbyCheck = false;
-        if (!obj.target.feetCheck.grounded && obj.target.body.velocity.y < 0 && (obj.target.inputManager.horizontal != 0 || obj.target.inputManager.vertical != 0) && obj.target.CubbyCheck()) {
+        if (!obj.target.feetCheck.grounded && obj.target.body.linearVelocity.y < 0 && (obj.target.inputManager.horizontal != 0 || obj.target.inputManager.vertical != 0) && obj.target.CubbyCheck()) {
            // Debug.Log("Cubby Check " + Time.time);
             cubbyCheck = true;
         }
@@ -1938,13 +1938,13 @@ public class PlayerIdleState : State<PlayerController> {
 
         if (obj.target.feetCheck.grounded) {
             
-            obj.target.body.velocity = new Vector3(v.x * obj.target.moveSpeed, obj.target.body.velocity.y + Time.deltaTime, v.y * obj.target.moveSpeed);
+            obj.target.body.linearVelocity = new Vector3(v.x * obj.target.moveSpeed, obj.target.body.linearVelocity.y + Time.deltaTime, v.y * obj.target.moveSpeed);
         } else {
 
             if (cubbyCheck) {
-                obj.target.body.velocity = new Vector3(v.x * obj.target.moveSpeed, obj.target.body.velocity.y, v.y * obj.target.moveSpeed);
+                obj.target.body.linearVelocity = new Vector3(v.x * obj.target.moveSpeed, obj.target.body.linearVelocity.y, v.y * obj.target.moveSpeed);
             } else {
-                obj.target.body.velocity = new Vector3(v.x * obj.target.airMoveSpeed, obj.target.body.velocity.y, v.y * obj.target.airMoveSpeed);
+                obj.target.body.linearVelocity = new Vector3(v.x * obj.target.airMoveSpeed, obj.target.body.linearVelocity.y, v.y * obj.target.airMoveSpeed);
             }
 
             // float y = obj.target.body.velocity.y;
@@ -1956,7 +1956,7 @@ public class PlayerIdleState : State<PlayerController> {
         }
 
         if (obj.target.feetCheck.grounded && obj.target.feetCheck.onlyTouchingBack && obj.target.transform.position.y > 0.5f) {
-            obj.target.body.velocity -= Vector3.forward * 20 * Time.deltaTime;
+            obj.target.body.linearVelocity -= Vector3.forward * 20 * Time.deltaTime;
             PlayerController.cantJumpTime = Time.time + 0.25f;
         }
 
@@ -1982,7 +1982,7 @@ public class PlayerIdleState : State<PlayerController> {
                // Debug.LogError("Jump GOOD " + Time.time.ToString());
 
 
-                obj.target.body.velocity = new Vector3(obj.target.body.velocity.x, obj.target.jumpSpeed, obj.target.body.velocity.z);
+                obj.target.body.linearVelocity = new Vector3(obj.target.body.linearVelocity.x, obj.target.jumpSpeed, obj.target.body.linearVelocity.z);
                 lastJump = Time.time + obj.target.coyoteTime + 0.1f;
                 obj.target.anim.SetTrigger(PlayerController.jumpString);
                 obj.target.jumpSound.Play();
@@ -2046,9 +2046,9 @@ public class PlayerIdleState : State<PlayerController> {
             }
         }
 
-        if (!obj.target.feetCheck.grounded && obj.target.body.velocity.y < 0) {
-            obj.target.body.velocity -= new Vector3(0, 10, 0) * Time.deltaTime;
-            obj.target.body.velocity = new Vector3(obj.target.body.velocity.x, Mathf.Max(obj.target.body.velocity.y, obj.target.maxnegativeVelocity), obj.target.body.velocity.z);
+        if (!obj.target.feetCheck.grounded && obj.target.body.linearVelocity.y < 0) {
+            obj.target.body.linearVelocity -= new Vector3(0, 10, 0) * Time.deltaTime;
+            obj.target.body.linearVelocity = new Vector3(obj.target.body.linearVelocity.x, Mathf.Max(obj.target.body.linearVelocity.y, obj.target.maxnegativeVelocity), obj.target.body.linearVelocity.z);
         }
 
 
@@ -2159,7 +2159,7 @@ public class PlayerPauseState : State<PlayerController> {
         GameMasterManager.instance.ShowPauseScreen();
         CursorObject.SetDefaultCursorSprite();
         CursorObject.ShowCursorIfNeeded();
-        obj.target.body.velocity = Vector3.zero;
+        obj.target.body.linearVelocity = Vector3.zero;
         //obj.target.body.isKinematic = true;
         obj.target.FreezeRigidbodyMovement();
         Time.timeScale = 1;
@@ -2189,7 +2189,7 @@ public class ViewLevelCameraState : State<PlayerController> {
     public override void Enter(StateMachine<PlayerController> obj) {
         GameMasterManager.instance.generator.levelName.enabled = false;
         GameMasterManager.instance.cameraManager.ShowLevelViewerCamera();
-        obj.target.body.velocity = Vector3.zero;
+        obj.target.body.linearVelocity = Vector3.zero;
     }
 
     public override void Update(StateMachine<PlayerController> obj) {
